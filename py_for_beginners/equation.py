@@ -23,6 +23,8 @@
 # main()
 
 import math
+
+
 def main():
     a, b, c = eval(input("a, b, c"))
     delta = b * b - 4 * a * c
@@ -39,4 +41,6 @@ def main():
         x1 = (-b + disc) / 2 * a
         x2 = (-b - disc) / 2 * a
         print("\nThe solutions are:", x1, x2)
+
+
 main()
